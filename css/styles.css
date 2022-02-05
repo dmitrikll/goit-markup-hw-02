@@ -16,6 +16,10 @@ body {
   background-color: var(--active-button-text-color);
 }
 
+address {
+  font-style: normal;
+}
+
 .list {
   list-style: none;
 }
@@ -90,8 +94,7 @@ body {
 }
 
 .hero-btn {
-  font-family: var(--main-font-family);
-  font-style: normal;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -179,3 +182,48 @@ body {
 }
 
 /* FOOTER */
+.footer {
+  background-color: var(--background-footer-color);
+}
+
+.footer .logo-first {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.footer .logo-second {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--active-button-text-color);
+}
+
+.address-item {
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--active-button-text-color);
+}
+
+.address-contact {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item:hover,
+.address-item:focus,
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--accent-color);
+}
