@@ -13,6 +13,7 @@
 
 body {
   font-family: var(--main-font-family);
+  background-color: var(--active-button-text-color);
 }
 
 .list {
@@ -21,4 +22,58 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+/* HEADER */
+
+.header .logo-first {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.header .logo-second {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-text-color);
+}
+
+.nav-list-link {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.contact-list-link {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: var(--accent-color);
+}
+
+.current-page {
+  color: var(--accent-color);
+}
+
+/* index.html - HERO */
+
+.hero {
+  background-color: var(--background-footer-color);
 }
