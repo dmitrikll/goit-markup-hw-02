@@ -44,7 +44,6 @@ body {
 }
 
 .nav-list-link {
-  font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -53,7 +52,6 @@ body {
 }
 
 .contact-list-link {
-  font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -79,7 +77,6 @@ body {
 }
 
 .hero-title {
-  font-family: var(--main-font-family);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,7 +90,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -109,7 +106,6 @@ body {
 
 /* index.html - FEATURES */
 .feature-list-title {
-  font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -119,7 +115,6 @@ body {
 }
 
 .features-list-description {
-  font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -129,7 +124,6 @@ body {
 
 /* index.html - WORKS */
 .works-title {
-  font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -148,7 +142,6 @@ body {
 }
 
 .team-title {
-  font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -158,7 +151,6 @@ body {
 }
 
 .team-list-title {
-  font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -168,7 +160,6 @@ body {
 }
 
 .team-list-discription {
-  font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -204,7 +195,6 @@ body {
 }
 
 .address-item {
-  font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -225,5 +215,58 @@ body {
 .address-item:focus,
 .address-contact:hover,
 .address-contact:focus {
+  color: var(--accent-color);
+}
+
+/* portfolio.html */
+
+.filter-list-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--background-page-color);
+}
+
+.filter-list-btn:hover,
+.filter-list-btn:focus {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--active-button-text-color);
+  background-color: var(--accent-color);
+}
+
+.img-size {
+  width: 370;
+  height: 294;
+}
+
+.portfolio-example-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-example-discr {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.portfolio-example-title:hover,
+.portfolio-example-title:focus,
+.portfolio-example-discr:hover,
+.portfolio-example-discr:focus {
   color: var(--accent-color);
 }

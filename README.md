@@ -6,9 +6,9 @@ fs49-fe-module02-homework
 
 --main-font-family / основной шрифт страницы
 
---secondary-font-family: / второстепенный цвет страницы
+--secondary-font-family / второстепенный шрифт страницы
 
---main-text-color #212121; / основной цвет текста страницы
+--main-text-color / основной цвет текста страницы
 
 --secondary-text-color / второстепенный цвет текста страницы
 
