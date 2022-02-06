@@ -132,10 +132,6 @@ body {
   color: var(--main-text-color);
 }
 
-.work-list-link {
-  cursor: pointer;
-}
-
 /* index.html - TEAM */
 .team {
   background-color: var(--background-page-color);
