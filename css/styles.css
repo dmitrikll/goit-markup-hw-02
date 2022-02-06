@@ -241,6 +241,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--active-button-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .img-size {
